@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b9f6b63fdbeed664195f2d78f74f4773
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - character1: {instanceID: 0}
+  - character2: {instanceID: 0}
+  - character3: {instanceID: 0}
+  - character4: {instanceID: 0}
+  - area1: {instanceID: 0}
+  - area2: {instanceID: 0}
+  - area3: {instanceID: 0}
+  - area4: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - slash: {fileID: 3305005980700896481, guid: 27f3201839fcb7d47a793d3421e1d5e6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

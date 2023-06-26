@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2971281082588468797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7791612583918143389}
+  - component: {fileID: 8700941843426732521}
+  - component: {fileID: 3131832127936456565}
+  m_Layer: 0
+  m_Name: SlashAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7791612583918143389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2971281082588468797}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: -1.25, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+--- !u!60 &8700941843426732521
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2971281082588468797}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.08, y: 3.54}
+    newSize: {x: 7.08, y: 3.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.0267098, y: 2.2033272}
+      - {x: 2.5070236, y: 2.549896}
+      - {x: 1.8595756, y: 2.8867195}
+      - {x: 1.1382488, y: 3.1040835}
+      - {x: 0.35900855, y: 3.2274065}
+      - {x: -0.3430409, y: 3.2124498}
+      - {x: -0.90289026, y: 3.156223}
+      - {x: -1.5903411, y: 2.9825106}
+      - {x: -2.2524495, y: 2.6803415}
+      - {x: -2.5524845, y: 2.5365467}
+      - {x: -2.9272497, y: 2.2867727}
+      - {x: -3.54, y: 1.77}
+      - {x: -3.54, y: 1.75}
+      - {x: -0.02, y: -1.77}
+      - {x: 0.02, y: -1.77}
+      - {x: 3.54, y: 1.75}
+      - {x: 3.54, y: 1.77}
+--- !u!114 &3131832127936456565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2971281082588468797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada6d4f6a05f5704aa164f4e75954ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3

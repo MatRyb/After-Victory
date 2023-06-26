@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2139234345356293173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6393847800710154965}
+  - component: {fileID: 2707457389822582372}
+  m_Layer: 0
+  m_Name: DoggoSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6393847800710154965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139234345356293173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5807684039729715226}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2707457389822582372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139234345356293173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364e73a820b21574d83d8849ea4c18b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: 0
+  flipFlop: 0
+--- !u!1001 &4671556129358067338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6393847800710154965}
+    m_Modifications:
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883977694356268041, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+      propertyPath: m_Name
+      value: DoggoPlane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+--- !u!4 &5807684039729715226 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1174799936703966864, guid: a681e3d75e10013408c09d4620b8f351, type: 3}
+  m_PrefabInstance: {fileID: 4671556129358067338}
+  m_PrefabAsset: {fileID: 0}

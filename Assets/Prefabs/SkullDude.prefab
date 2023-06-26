@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2498536663911169308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760382417306324134}
+  - component: {fileID: 7705011635548017945}
+  - component: {fileID: 1209416929136553952}
+  - component: {fileID: 1209416929136553957}
+  m_Layer: 0
+  m_Name: SkullDude
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760382417306324134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498536663911169308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.33, y: -2.1, z: 0}
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.28}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 3511281086117038553}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7705011635548017945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498536663911169308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0238a18a101a21a4e9a3df7d4b6f3529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsAngry: 0
+--- !u!114 &1209416929136553952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498536663911169308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79c93afb8ecbce47b50b4bc4c39d338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 1
+  attackSpeed: 4
+  attackDamage: 1
+  attackRange: 10
+  moveSpeed: 0.2
+  stun: 0
+  vln: 0
+  target: {fileID: 0}
+  bulletSpeed: 1
+  bullet: {fileID: 2969601756905211441, guid: 2d90e4bfbf4c80043bed2038be51ef2a, type: 3}
+  bulletStorage: {fileID: 0}
+--- !u!61 &1209416929136553957
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498536663911169308}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.523251, y: -0.6654978}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.4662294, y: 8.12822}
+  m_EdgeRadius: 0
+--- !u!1001 &5983824813595633430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 760382417306324134}
+    m_Modifications:
+    - target: {fileID: 862706517167709336, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_Name
+      value: SkullDudeSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932855769383821447, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: flipFlop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+--- !u!4 &3511281086117038553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7183315612087938767, guid: c1d7151b4ac2d564cad8ee1f909b5f4e, type: 3}
+  m_PrefabInstance: {fileID: 5983824813595633430}
+  m_PrefabAsset: {fileID: 0}
